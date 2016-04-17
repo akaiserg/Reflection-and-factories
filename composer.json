@@ -1,0 +1,24 @@
+{
+    "note":"composer dump-autoload -o",
+    "require": {
+
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    },
+    "autoload": {
+
+        "psr-4":
+        {
+            "layer0\\": "layer0/",
+            "layer1\\": "layer1/",
+            "layer2\\": "layer2/",
+            "reflection\\": "reflection/"
+
+        },
+        "classmap": [
+
+        ]
+    }
+}
